@@ -238,7 +238,7 @@ footer .social-icons a:hover {
 }
 #map-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (змініть на відповідне значення, якщо потрібно інше співвідношення сторін) */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
@@ -254,6 +254,6 @@ footer .social-icons a:hover {
 
 @media (max-width: 767px) {
     #map-container {
-        padding-bottom: 100%; /* Ви можете налаштувати інше співвідношення сторін для мапи на менших екранах */
+        padding-bottom: 100%; 
     }
 }
